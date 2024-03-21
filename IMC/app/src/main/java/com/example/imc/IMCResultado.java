@@ -24,14 +24,14 @@ public class IMCResultado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_imcresultado);
 
-        txtResulIMC = findViewById(R.id.txtIMC); // associei a variavel local ao view na tela
+        txtResulIMC = findViewById(R.id.txtIMC);
         txtNome = findViewById(R.id.lblNome);
         txtAlt = findViewById(R.id.lblAltura);
         txtPeso = findViewById(R.id.lblPeso);
         imgResul = findViewById(R.id.imgResul);
 
-        Intent i = getIntent(); //recuperamos a intenção que veio atividade anterior
-        Bundle bundle = i.getExtras(); //recuperamos os dados que acompanham
+        Intent i = getIntent();
+        Bundle bundle = i.getExtras();
         String nomeS = bundle.getString("nome");
         String alturaS = bundle.getString("altura");
         String pesoS = bundle.getString("peso");

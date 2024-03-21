@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="abaixopeso" />
+    <drawable name="normal" />
+    <drawable name="sobrepeso" />
+    <drawable name="obesidade1" />
+    <drawable name="obesidade2" />
+    <drawable name="obesidade3" />
+</resources>
